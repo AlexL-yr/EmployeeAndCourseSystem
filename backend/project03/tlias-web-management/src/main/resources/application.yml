@@ -3,10 +3,10 @@ spring:
     name: tlias-web-management
   #配置数据库的连接信息
   datasource:
-    url: jdbc:mysql://mysql:3306/tlias
+    url: 
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: 123
+    username: 
+    password: 
   servlet:
     multipart:
       #最大单个文件大小
@@ -30,7 +30,7 @@ logging:
 aliyun:
   oss:
     endpoint: https://oss-cn-beijing.aliyuncs.com
-    bucketName: java-lyr-01
+    bucketName: 
     region: cn-beijing
     accessKeyId: ${OSS_ACCESS_KEY_ID}
     accessKeySecret: ${OSS_ACCESS_KEY_SECRET}
